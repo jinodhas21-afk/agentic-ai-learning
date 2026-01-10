@@ -1,0 +1,71 @@
+🎥 YouTube Video Q&A Bot (LLM + LangChain + Gradio)
+📌 Project Overview
+This project is an AI-powered YouTube assistant that allows users to paste a YouTube video link and ask questions about the video content.
+The system automatically:
+
+
+Extracts the video ID from the URL
+Fetches the transcript using YouTube Transcript API
+Cleans and preprocesses the text
+Splits the transcript into chunks
+Generates embeddings and stores them in a FAISS vector database
+Performs semantic search to find relevant content
+Uses an LLM (OpenAI via LangChain) to generate accurate answers
+Provides an interactive UI using Gradio
+
+
+🚀 Features
+✅ Extract transcript directly from YouTube URL
+✅ Automatic text cleaning and chunking
+✅ Vector search using FAISS
+✅ Semantic question answering
+✅ LLM-powered summarization and answers
+✅ Interactive web UI using Gradio
+✅ Modular functions for easy extension
+
+
+🛠️ Tech Stack
+Python
+LangChain
+OpenAI / ChatOpenAI
+FAISS (Vector Database)
+YouTube Transcript API
+Gradio (Frontend UI)
+dotenv (Environment management)
+
+
+
+📂 Workflow Architecture
+YouTube URL  
+   ↓  
+Transcript Extraction  
+   ↓  
+Text Preprocessing  
+   ↓  
+Chunking  
+   ↓  
+Embeddings Creation  
+   ↓  
+FAISS Vector Store  
+   ↓  
+User Question  
+   ↓  
+Similarity Search  
+   ↓  
+LLM Answer Generation  
+
+
+
+
+
+💡 Use Cases
+Students summarizing lectures
+Researchers extracting insights from talks
+Content creators analyzing videos
+Anyone who wants fast answers from long videos
+
+
+
+
+
+
