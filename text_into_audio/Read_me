@@ -1,0 +1,27 @@
+Input:
+Topic: The Solar System
+Output:
+A 200–300 word educational story
+Auto-generated audio narration of the story
+
+This makes it useful for:
+EdTech projects
+AI content generation demos
+Voice-based learning tools
+AI portfolio projects
+
+🛠️ Tech Stack
+Python
+LangChain
+OpenAI API
+gTTS (Google Text-to-Speech)
+Jupyter Notebook
+IPython Display
+dotenv (for API key security)
+
+🔮 Future Improvements
+Add Streamlit UI
+Support multiple voices and languages
+Export audio as downloadable MP3
+Deploy as a web app
+Add user controls (tone, length, age group)
